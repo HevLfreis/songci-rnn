@@ -24,11 +24,11 @@ If the sample result is shit, you can refresh the page to make it surprise you.
  
 # 吟·宋词
 通过全宋词训练RNN，随机生成宋词   
-[在线版](http://seeleit.com/songci)  
-如果生成结果很烂，你可尝试多刷新几次，总会惊艳到你。有些反正我是不相信这竟然是机器生成的（= =）
+[Live Demo](http://seeleit.com/songci)  
+如果生成结果很烂，可尝试多刷新几次，总会惊艳到你。有些反正我是不相信这竟然是机器生成的（= =）
 ***
 ## 使用
-1. 下载 [torch-rnn](https://github.com/jcjohnson/torch-rnn). **torch-rnn** 基于 [Torch7](http://torch.ch/), 你应该先配置Torch环境 
+1. 下载 [torch-rnn](https://github.com/jcjohnson/torch-rnn). **torch-rnn** 基于 [Torch7](http://torch.ch/), 首先先配置Torch环境 
 2. 拷贝 **songci.txt** 到 ``torch-rnn/data/``
 3. 进入 ``torch-rnn`` 目录
 4. 你可以自己训练模型也可以用我提供的模型  
